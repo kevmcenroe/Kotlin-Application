@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/screenSlotA3"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot7"
+        app:layout_constraintBottom_toTopOf="@+id/resultImage"
+        app:layout_constraintEnd_toStartOf="@+id/screenSlotB2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotA2"
+        app:srcCompat="@drawable/grapes" />
+
+    <ImageView
+        android:id="@+id/screenSlotC3"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot9"
+        app:layout_constraintBottom_toTopOf="@+id/resultImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/screenSlotB2"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotC2"
+        app:srcCompat="@drawable/banana" />
+
+    <ImageView
+        android:id="@+id/screenSlotB3"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot8"
+        app:layout_constraintBottom_toTopOf="@+id/resultImage"
+        app:layout_constraintEnd_toStartOf="@+id/screenSlotC2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/screenSlotA2"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotB2"
+        app:srcCompat="@drawable/cherries" />
+
+    <ImageView
+        android:id="@+id/screenSlotA1"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot1"
+        app:layout_constraintBottom_toTopOf="@+id/screenSlotA2"
+        app:layout_constraintEnd_toStartOf="@+id/screenSlotB2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grapes" />
+
+    <ImageView
+        android:id="@+id/screenSlotC1"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot3"
+        app:layout_constraintBottom_toTopOf="@+id/screenSlotC2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/screenSlotB2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/banana" />
+
+    <ImageView
+        android:id="@+id/screenSlotB1"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot2"
+        app:layout_constraintBottom_toTopOf="@+id/screenSlotB2"
+        app:layout_constraintEnd_toStartOf="@+id/screenSlotC2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/screenSlotA2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cherries" />
+
+    <ImageView
+        android:id="@+id/screenSlotC2"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot6"
+        app:layout_constraintBottom_toTopOf="@+id/screenSlotC3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/screenSlotB2"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotC1"
+        app:srcCompat="@drawable/banana" />
+
+    <ImageView
+        android:id="@+id/screenSlotA2"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot4"
+        app:layout_constraintBottom_toTopOf="@+id/screenSlotA3"
+        app:layout_constraintEnd_toStartOf="@+id/screenSlotB2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotA1"
+        app:srcCompat="@drawable/grapes" />
+
+    <ImageView
+        android:id="@+id/screenSlotB2"
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/slot5"
+        app:layout_constraintBottom_toTopOf="@+id/screenSlotB3"
+        app:layout_constraintEnd_toStartOf="@+id/screenSlotC2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/screenSlotA2"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotB1"
+        app:srcCompat="@drawable/cherries" />
+
+    <ImageView
+        android:id="@+id/resultImage"
+        android:layout_width="413dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/result"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/spinButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/screenSlotC2"
+        tools:srcCompat="@drawable/win" />
+
+    <Button
+        android:id="@+id/spinButton"
+        android:layout_width="153dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="130dp"
+        android:background="@drawable/button"
+        android:text="@string/spin"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resultImage" />
+
+    <LinearLayout
+        android:layout_width="358dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinButton">
+
+        <TextView
+            android:id="@+id/numSpinsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/number_of_spins"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Spins:" />
+
+        <TextView
+            android:id="@+id/numSpins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:paddingStart="20dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#FFDB74"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numWinsText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:text="@string/number_of_wins"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Wins:" />
+
+        <TextView
+            android:id="@+id/numWins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:paddingStart="20dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#FFDB74"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/winSpinRatioText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/win_spin"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/winSpinRatio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="start"
+            android:paddingStart="20dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:textColor="#FFDB74"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

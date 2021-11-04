@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kevin McEnroe\'s One Arm Bandit</string>
+    <string name="spin">SPIN</string>
+    <string name="number_of_spins">Spins:</string>
+    <string name="number_of_wins">Wins:</string>
+
+    <string name="slot1">Slot 1</string>
+    <string name="slot2">Slot 2</string>
+    <string name="slot3">Slot 3</string>
+    <string name="slot4">Slot 4</string>
+    <string name="slot5">Slot 5</string>
+    <string name="slot6">Slot 6</string>
+    <string name="slot7">Slot 7</string>
+    <string name="slot8">Slot 8</string>
+    <string name="slot9">Slot 9</string>
+
+    <string name="result">Result</string>
+    <string name="win_spin">Win/Spin:</string>
+</resources>
